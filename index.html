@@ -4,7 +4,7 @@
     <meta charset="utf-8">
 
     <!-- TITLE OF SITE -->
-    <title>Energy Innovation Center</title>
+    <title>EIC Seed Accelerator</title>
 
     <meta name="description" content="Responsive Landing Page for Presenting Your Startup: Saas, Mobile or Web Application" />
     <meta name="keywords" content="smartmvp, startup theme, startup template, startup example, startup landing page, one page, responsive, app landing, html template, mobile application, responsive landing page" />
@@ -38,7 +38,10 @@
 
     <!-- COLORE STYLESHEET -->
     <!-- Change here the Main Color of the Site: Choose your favorite predefined color from assets/css/colors.css -->
-    <link rel="stylesheet" href="assets/css/colors/midnight-blue.css" title="midnight-blue">
+    <link rel="stylesheet" href="assets/css/colors/red.css" title="red">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     
     
     <!--[if lt IE 9]>
@@ -54,7 +57,7 @@
     ============================== -->
     <div class="preloader">
         <div class="loader-container">
-            <div class="text-logo">Welcome to the<br>Energy Innovation Center</div>
+            <div class="text-logo">Energy Innovation Center</div>
             <div class="signal"></div>
         </div>
     </div> 
@@ -63,13 +66,9 @@
     <!-- =========================
          HEADER
     ============================== -->
-    <header class="header solid-bg youtube-bg" id="top">
+    <header class="header" id="top" data-stellar-background-ratio="0.5">
         <!-- Background Overlay -->
         <div class="overlay">
-
-            <!-- Youtube Video Header Background -->
-            <div id="P1" class="player" style="display:block; margin: auto; background: rgba(0,0,0,0.5)" data-property="{videoURL:'http://youtu.be/e8DFN3m8XGQ',containment:'#top',startAt:0,mute:true,autoPlay:true,loop:false,opacity:1}"></div>
-
 
             <!-- =========================================
                  Navigation
@@ -88,7 +87,7 @@
 
                                 <!-- Text-Logo -->
                                 <a href="#top" class="navbar-brand scrollto" title="SmartMvp">
-                                    <span class="text-logo">Energy Innovation Center</span>
+                                    <span class="text-logo">Accelerating Energy</span>
                                 </a> 
 
                                 <!-- Image-Logo: Remove this comments and the section above Text-Logo if you want to add an Image-Logo (recommended sizes -> max-height:50, max-width:200) 
@@ -104,97 +103,16 @@
                             <div class="navbar-collapse collapse">
                                 <ul class="nav navbar-nav navbar-right">
                                     <!-- Menu Items -->
-                                    <li><a href="#about" title="" class="scrollto">About</a></li>
-                                    <li><a href="#features" title="" class="scrollto">EIC</a></li>
-                                    <li><a href="#pricing" title="" class="scrollto">EPiC</a></li>
-                                    <li><a href="#testimonials" title="" class="scrollto">Testimonials</a></li>
-                                    <li><a href="#team" title="" class="scrollto">Team</a></li>
-                                    <li><a href="#mobile-download" title="" class="scrollto">Mobile</a></li>
-                                    <!-- Login and Signup Modal on click -->
-                                    <li><a class="btn btn-nav" data-toggle="modal" href="javascript:void(0)" onclick="openLoginModal();">Login</a></li>
-                                    <li><a class="btn btn-nav btn-white" data-toggle="modal" href="javascript:void(0)" onclick="openRegisterModal();">Sign Up</a></li> 
+                                    <li><a href="#about" title="" class="scrollto">Overview</a></li>
+                                    <li><a href="#features" title="" class="scrollto">Program</a></li>
+                                    <li><a href="#pricing" title="" class="scrollto">Mentors</a></li>
+                                    <li><a class="btn btn-nav btn-color" href="#">Apply</a></li> 
                                 </ul>
                             </div><!-- /End Navbar-Collapse -->
                         </div><!-- /End Col -->
                     </div><!-- /End Row -->
                 </div><!-- /End Container -->
             </nav><!-- /End Sticky Navigation -->
-
-
-            <!-- =========================================
-                 Login/Signup Bootstrap Modal
-            ==========================================  -->
-            <div class="modal fade login" id="loginModal">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        
-                        <!-- Modal-Header -->
-                        <div class="modal-header">
-                            <!-- Close Button -->
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                                <i class="icon icon_close_alt2"></i>
-                            </button>
-                            <!-- Modal-Header Title-->
-                            <h4 class="modal-title">Sign in to <span>Smartmvp</span></h4>
-                            <p class="modal-subtitle">Enter your email and password</p>
-                        </div><!-- /End Modal-Header -->
-
-                        <!-- Modal-Body Content -->
-                        <div class="modal-body">  
-                            <div class="box">
-                                 <div class="content">
-                                    <!-- Login Form -->
-                                    <div class="loginBox">
-                                        <form id="login-modal" role="form">
-                                            <!-- Success/Alert Notification -->
-                                            <p class="lm-success"><i class="icon icon_check_alt2"></i> <strong>Congratulation! Login modal validation is working. Implement your code.</strong></p>
-                                            <p class="lm-failed"><i class="icon icon_close_alt2"></i><strong> Something went wrong! Insert correct value.</strong></p>
-                                            <!-- Input Fields -->
-                                            <input id="lm-email" class="form-control input-lg" type="text" placeholder="Email" name="lm-email" required>
-                                            <input id="lm-password" class="form-control input-lg" type="password" placeholder="Password" name="lm-password" required>
-                                            <!-- Login Button -->
-                                            <button class="btn btn-color">Login</button>
-                                        </form>
-                                    </div><!-- /End Login Form -->
-                                 </div>
-                            </div><!-- /End Login Form Box -->
-                            <div class="box">
-                                <!-- Signup Form -->
-                                <div class="content registerBox" style="display:none;">
-                                    <form id="signup-modal" role="form">
-                                        <!-- Success/Alert Notification -->
-                                        <p class="sm-success"><i class="icon icon_check_alt2"></i> <strong>Congratulation! Signup modal validation is working. Implement your code.</strong></p>
-                                        <p class="sm-failed"><i class="icon icon_close_alt2"></i><strong> Something went wrong! Insert correct value.</strong></p>
-                                        <!-- Input Fields -->
-                                        <input id="sm-email" class="form-control input-lg" type="text" placeholder="Email" name="sm-email" required>
-                                        <input id="sm-password" class="form-control input-lg" type="password" placeholder="Password" name="sm-password">
-                                        <input id="sm-confirm" class="form-control input-lg" type="password" placeholder="Repeat Password" name="sm-confirm">
-                                        <!-- Signup Button -->
-                                        <button class="btn btn-color">Create Account</button>
-                                    </form>
-                                    
-                                </div><!-- /End Signup Form -->
-                            </div><!-- /End Signup Form Box -->
-                        </div><!-- /End Modal-Body -->
-
-                        <!-- Modal-Footer -->
-                        <div class="modal-footer">
-                            <!-- Login-Footer. Redirect to Signup-Modal-->
-                            <div class="forgot login-footer">
-                                <span>Don't have an account? 
-                                     <a href="javascript: showRegisterForm();">Sign up.</a>
-                                </span>
-                            </div>
-                            <!-- Signup-Footer. Redirect to Login-Modal -->
-                            <div class="forgot register-footer" style="display:none">
-                                 <span>Already have an account?</span>
-                                 <a href="javascript: showLoginForm();">Login</a>
-                            </div>
-                        </div><!-- /End Modal-Footer -->      
-                      
-                    </div><!-- /End Modal Content -->
-                </div><!-- /End Modal Dialog -->
-            </div><!-- /End Modal -->
 
             
             <!-- =========================================
@@ -204,16 +122,15 @@
                 <div class="row">
                     <div class="col-md-8">
                         <div class="hero-section">
-                            
                             <!-- Welcome - Hero Message -->
-                            <h1 class="text-white">The Strongest Energy, Power and Control Infrastructure in the Region</h1>
-                            <p class="text-white">Your starting point for building successful EPC products.</p>
-                            
-                            <!-- Learn More Buttons -->
+                            <h1 class="text-white">Bending the rules of innovation to create accessable sources of power.</h1>
+                            <p class="text-white">We're helping technology innovators bring large scale solutions to market.</p>
+                            <!-- Learn More & Video Buttons -->
                             <div class="btn-box">
-                                <a href="#canvas-bg" class="btn btn-white scrollto"><i class="icon arrow_carrot-2dwnn_alt"></i>Schedule a tour</a>
+                                <a href="#about" class="btn btn-ghost scrollto">Apply Today</a>
+                                <!-- Video Lightbox on Click -->
+                                <a href="#" data-type="youtube" class="btn btn-color venobox"><i class="icon arrow_triangle-right_alt"></i>Play video</a>
                             </div>
-
                         </div><!-- /End Intro-Section -->
                     </div><!-- /End Col -->
                 </div><!-- /End Row -->
@@ -230,39 +147,33 @@
     <!-- =================================
          SECTION ABOUT - INTRO FEATURES
     ====================================== -->
-    <section class="intro-features white-bg" id="about">
+    <section class="intro-features" id="about">
         <div class="container">
             <!-- Padding -->
             <div class="wrapper-lg">
                 <div class="row">
                     <!-- Section Header Title -->
                     <div class="col-xs-12">
-                        <h2>Research, Prototyping & Accelerating Innovative New Products.</h2>
-                        <p class="large">The EIC is the place to join the energy, power and control movement.</p>
+                        <h2>It's about making ideas happen that create an epic impact</h2>
+                        <p class="large">We select 10 startups a year to join our 3-month, immersive, mentor-driven program to solve large scale corporate energy problems.</p>
                     </div>
                 </div>
                 <!-- Three Main Features with Icons -->
                 <div class="row">
                     <div class="col-sm-4 intro-content">
-                        <div class="icon-lg">
-                            <i class="icon icon_folder-open_alt"></i>
-                        </div>
-                        <h4>Research</h4>
-                        <p>Over 64 public and private partners are collaborating to increase the rate of innovative new energy, power and control products.</p>
+                        <i class="fa fa-bolt fa-4x"></i>
+                        <h4>Energy</h4>
+                        <p>Optio dolores expedita unde vel laudantium enim nisi eos distinctio, rem. Repellat repudiandae quos laborum magni.</p>
                     </div>
                     <div class="col-sm-4 intro-content">
-                        <div class="icon-lg">
-                            <i class="icon icon_tools"></i>
-                        </div>
-                        <h4>Prototyping & Production</h4>
-                        <p>State-of-the-art facilities to design, build, test, and ship any size product. Work alongside corporate R&D divisions and leading Universities.</p>  
+                        <i class="fa fa-power-off fa-4x"></i>
+                        <h4>Power</h4>
+                        <p>Praesentium reprehenderit quae, sequi deserunt laboriosam velit necessitatibus nulla ea optio, quis nam pariatur.</p>  
                     </div>
                     <div class="col-sm-4 intro-content">
-                        <div class="icon-lg">
-                            <i class="icon icon_genius"></i>
-                        </div>
-                        <h4>Acceleration</h4>
-                        <p>EPiC selects and supports entrepreneurs and early-stage companies to provide best-in-class training, mentorship, and capital.</p>
+                        <i class="fa fa-tachometer fa-4x"></i>
+                        <h4>Controls</h4>
+                        <p>Aperiam recusandae ipsa culpa, cupiditate magnam dolor molestiae, omnis, architecto possimus aperiam corrupti corporis.</p>
                     </div>
                 </div><!-- /End Row -->
             </div><!-- /End Wrapper -->
@@ -281,15 +192,22 @@
             <div class="row">
                 <div class="col-lg-5 col-md-5">
                     <!-- Text Col -->
-                    <h3>Validate your Business Model and Reach Product-Market-Fit</h3>
-                    <p>The EIC is built around the leading energy, power and control corporations in the Midwest Region of the United States that serve on our expanding Energy, Power and Control consortium, as mentors, investors, and your potential customers. <br>We work with companies to help create energy independence through innovative new solutions tied to energy related activities such as; generation, transmission, distribution, storage, automation, power conversion and energy efficiency / conservation.</p>
+                    <h3>The EPC Accelerator is focused on startups in the energy, power and control space.</h3>
+                    <p>Together with our corporate partners, we provide our startups access to technology and market insights that help you scale your business. Over 60 mentors from our community are at your exposure.</p>
+                    <!-- Call To Action Buttons -->
+                    <div class="btn-box">
+                        <a href="#features" class="btn btn-grey scrollto">Become a Member</a>
+                    </div>
                     <!-- Div Required for Correct Charts Animation -->
-                    <div class="start-charts"></div>
+                    <!-- <div class="start-charts"></div> -->
+                </div>
+        <!-- Image Col -->
+        <!-- <div class="hidden-sm hidden-xs col-md-6 img-col-bg img-right"></div> -->
+                <div class="col-md-7">
+                    <img src="assets/images/abb.png">
                 </div>
             </div><!-- /End Row-->
         </div><!-- /End Container-->
-        <!-- Image Col -->
-        <div class="hidden-sm hidden-xs col-md-6 img-col-bg img-right"></div>
     </section>
     <!-- =============================
          /END SECTION 
@@ -299,70 +217,55 @@
     <!-- ==================================================
         CHARTS & SHOWCASE SECTION
     ======================================================= -->
-    <section class="charts white-bg" id="charts">
+    <section class="charts" id="charts">
         <div class="container">
             <div class="wrapper-lg">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2>Get out of the building by getting in it</h2>
-                        <p class="large">The EIC provide co-working, collaboration, prototyping, and event space.</p>
+                        <h2>How it works</h2>
+                        <p class="large">Our job is to give you the tools and access you need to accelerate your business.</p>
                     </div>
                 </div>
 
-                <div class="row doughnut-box">
-                    <div class="col-md-5">
+                <div class="row">
+                    <div class="col-md-6">
                         <!-- Div Required for Correct Line Chart Animation -->
-                        <div class="start-line"></div>
+                        <!-- <div class="start-line"></div> -->
                         <!-- Chart Text Description -->
-                        <h4>Everything you need to advance your reserach or startup is here.</h4>
-                        <p>EIC has a number of different options availbale for one person teams in our co-working center to beautiful offices for growing startups overlooking the Milwaukee skyline. Growing? Rather than move across town, wheel your gear down the hall or to a different floor. We can accomodate growing teams of 30+ employees.</p>
-                        <p><a href="#canvas-bg" class="scrollto"><strong>Schedule a Tour. It will only take a minute ›</strong></a></p>
+                        <h4>Customer & Sales Development</h4>
+                        <p>Perferendis aliquid accusamus nostrum recusandae maxime dolor dolorum numquam pariatur quasi sit, in, culpa hic, fugiat dignissimos fuga necessitatibus tempore molestias ipsum corporis distinctio. Minima mollitia.</p>
+                        <!-- <p><a href="#canvas-bg" class="scrollto"><strong>Join with us. It will only take a minute ›</strong></a></p> -->
                     </div>
-                    <div class="col-md-7">
-                        <!-- Doughnut Charts  -->
-                        <div id="canvas-holder">
-                            <div class="chart-text">
-                                100&#37;<span>Dedicated to<br> Excellance</span>
-                            </div>
-                            <canvas id="chart-area" width="400" height="400"></canvas>
-                        </div>
-                        <div id="canvas2-holder">
-                            <div class="chart2-text">
-                                2000<span>Customer<br>Interviews</span>
-                            </div>
-                            <canvas id="chart2-area" width="300" height="300"></canvas>
-                        </div>
-                    </div>
-                </div><!-- /End Chart-Box -->
-                    
-                <div class="row chart-box">
-                    <div class="col-md-6 col-md-push-6 col-sm-12">
-                        <!-- Chart Text Description -->
-                        <h4>EPiC Ventures selects and supports entrepreneurs in three areas:</h4>
-                        <p>Acceleration - Development - Capital <br>Our goal is to support your venture long-term. That is why we select companies on a bi-monthly basis and give you free access to our facilities for one year. The first step is to connect you to a mentor who will prepare you for raising your next round of funding, landing new or expanding current customer relationships, and who will serve as your voice of reason in touch situations.</p>
-                    </div>
-                    <div class="col-md-6 col-md-pull-6 col-sm-12">
-                        <!-- Line Chart -->
-                        <div class="line-canvas">
-                            <div>
-                                <canvas id="line-canvas" height="450" width="600"></canvas>
-                            </div>
-                        </div>
+                    <div class="col-md-6">
+                        <center><img src="assets/images/bmc.png"></center>
                     </div>
                 </div><!-- /End Chart-Box -->
                 
-                <div class="row showcase">
-                    <div class="col-md-4">
-                        <h4>We take the Lean Approach</h4>
-                        <p>EPiC's Managing Directors are resident experts trained by Steve Blank in the Customer Development Methodology. They will guide your through a customized program to help you reach more customers, validate your hypotheses and grow your business.</p>
-                        <p><a href="#mobile-download" class="scrollto"><strong>Meet Our Team ›</strong></a></p>
+                <br>
+                <hr>
+
+                <div class="row">
+                    <div class="col-md-6 col-md-push-6 col-sm-12">
+                        <!-- Chart Text Description -->
+                        <h4>Funding</h4>
+                        <p>Exercitationem, hic commodi libero reprehenderit id iusto, consequatur unde pariatur recusandae dicta sequi voluptatum quae corrupti culpa quibusdam nihil error harum itaque praesentium quidem corporis cupiditate voluptatem. Error tempore aperiam nulla saepe corrupti!</p>
+                        <!-- <p><a href="#features" class="scrollto"><strong>Learn how customize SmartMvp ›</strong></a></p>
+ -->                    </div>
+                    <div class="col-md-6 col-md-pull-6 col-sm-12">
+                        funding icons
                     </div>
-                    <div class="col-md-8">
-                        <!-- Devices Image -->
-                        <div class="img-box">
-                            <img src="assets/images/showcase.png" alt="" class="img-responsive">
-                            <a href="http://youtu.be/SZEflIVnhH8" data-type="youtube" class="venobox video-player"><i class="icon arrow_triangle-right_alt2 wow fadeIn" data-wow-duration="2s"></i></a>
-                        </div>
+                </div><!-- /End Chart-Box -->
+
+                <hr>
+                
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>World-class amenities</h4>
+                        <p>Praesentium voluptatem excepturi corporis labore architecto eos ea molestiae saepe facere at voluptate similique iusto porro pariatur, dolorum dolor magni sint eveniet iste. Eaque, aliquam, dignissimos.</p>
+                        <!-- <p><a href="#mobile-download" class="scrollto"><strong>Download the App for your smartphone ›</strong></a></p> -->
+                    </div>
+                    <div class="col-md-6">
+                        <p>list of amenities</p>
                     </div>
                 </div><!-- /End Chart-Box -->
 
@@ -382,8 +285,8 @@
             <div class="features-title">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 class="text-white">Explore What Makes Us Powerful</h2>
-                        <p class="large text-white">The EIC is more than a space, its a place where the future is built.</p>
+                        <h2 class="text-white">What to expect</h2>
+                        <p class="large text-white">Our mission to create accessable and efficient energy technologies that solve major corporate problems.</p>
                     </div>
                 </div>
             </div>
@@ -400,43 +303,43 @@
                                     <div class="icon-sm">
                                         <i class="icon icon-layers"></i>
                                     </div>
-                                    <h5 class="text-white">Collaboration &<br> Co-Working Space</h5>
+                                    <h5 class="text-white">Partnerships<br> Co-working</h5>
                                 </a>
                         </li>
                         <!-- Feature Icon -->
                         <li class="tab">
                                 <a href="#tab-feature-2">
                                     <div class="icon-sm">
-                                        <i class="icon icon-genius"></i>
+                                        <i class="icon icon_chat_alt"></i>
                                     </div>
-                                    <h5 class="text-white">EPiC<br> Ventures</h5>
+                                    <h5 class="text-white">Rockstar<br> Mentors</h5>
                                 </a>
                         </li>
                         <!-- Feature Icon -->
                         <li class="tab">
                                 <a href="#tab-feature-3">
                                     <div class="icon-sm">
-                                        <i class="icon icon-grid"></i>
+                                        <i class="icon icon_puzzle"></i>
                                     </div>
-                                    <h5 class="text-white">Industry<br>Consortium</h5>
+                                    <h5 class="text-white">Open <br>Innovation</h5>
                                 </a>
                         </li>
                         <!-- Feature Icon -->
                         <li class="tab">
                                 <a href="#tab-feature-4">
                                     <div class="icon-sm">
-                                        <i class="icon icon-tools"></i>
+                                        <i class="icon icon_id-2"></i>
                                     </div>
-                                    <h5 class="text-white">Prototyping &<br>Production</h5>
+                                    <h5 class="text-white">Corporate <br>Access</h5>
                                 </a>
                         </li>
                         <!-- Feature Icon -->
                         <li class="tab">
                                 <a href="#tab-feature-5">
                                     <div class="icon-sm">
-                                        <i class="icon icon-lightbulb"></i>
+                                        <i class="icon icon_cogs"></i>
                                     </div>
-                                    <h5 class="text-white">Designed for <br>Innovation</h5>
+                                    <h5 class="text-white">Rapid Prototyping &amp;<br>Production</h5>
                                 </a>
                         </li>
                     </ul><!-- /End Etabs -->
@@ -448,8 +351,12 @@
                                 <div class="row">
                                     <!-- Feature Description 2cols Text-Left with Buttons -->
                                     <div class="col-md-5 col-sm-6">
-                                        <h4>Work space that fits your needs and keeps distractions to a minimal.</h4>
-                                        <p>The EIC is artfully thoughtout by our award winning design and architectual partner, <a href="http://www.kahlerslater.com/">Kahler Slater</a>. A mix of completely open working space, founder pods, and private offices make getting work done efficient. Located in the same building is one of the largest energy, power and control prototyping and production developments in the Midwest. With access to this state of the art equipment you can build almost anything.</p>
+                                        <h4>SmartMvp is a startup landing page with usable, versatile and modular features.</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius non velit optio veniam reprehenderit quod! Maiores asperiores dolorem doloremque tempore reiciendis voluptatem expedita, tempora, deserunt ducimus impedit animi quis eum, itaque laudantium ea perferendis nisi. Similique eaque esse praesentium laudantium deserunt quos incidunt sed porro maiores dolore voluptate quod quisquam, architecto eos dicta quae magni.</p>
+                                        <div class="btn-box">
+                                            <a href="#testimonials" class="btn btn-grey scrollto">Our Clients</a>
+                                            <a href="#team" class="btn btn-grey scrollto">Meet the Team</a>
+                                        </div>
                                     </div>
                                     <!-- Image-right -->
                                     <div class="col-md-7 col-sm-6 hidden-xs wow fadeInRight" data-wow-duration="2s">
@@ -464,27 +371,21 @@
                                 <div class="row">
                                     <!-- Feature Description 2cols Text-Right with Icons -->
                                     <div class="col-xs-12 col-sm-6 col-sm-push-6 col-lg-7 col-lg-push-5">
-                                        <h4>The world's most promising Energy, Power and Control Startups.</h4>
+                                        <h4>SmartMvp is a high-quality solution for those who want a beautiful website in no time</h4>
+                                        <p>Similique eaque esse praesentium laudantium deserunt quos incidunt sed porro maiores dolore voluptate quod quisquam.</p>
                                         <div class="tab-icon">
                                             <div class="icon-sm">
-                                                <i class="icon icon-wallet"></i>
+                                                <i class="icon icon-adjustments"></i>
                                             </div>
-                                            <p class="large">Capital</p>
-                                            <p>EPiC is an early-stage accelerator fund that supports companies with $25,000 of seed capital for around 5% equity if selected and up to $150,000 of equity capital post program. We work with leading angel and venture funds around the world to support your growth.</p>
+                                            <p class="large">Numerous Colour Schemes</p>
+                                            <p> Ipsum, ratione. Dolor illo numquam dolorem consequuntur, ex vitae, ipsum tenetur nihil soluta. Eaque at laboriosam similique?</p>
                                         </div>
                                         <div class="tab-icon">
                                             <div class="icon-sm">
-                                                <i class="icon icon-chat"></i>
+                                                <i class="icon icon-target"></i>
                                             </div>
-                                            <p class="large">Mentorship</p>
-                                            <p>We expect you to act and perform like a true entrepreneur, our mentors surely expect the same. You will learn to take command of your company as your distrupt the energy, power and control industry. From raising funds to acquiring new customers, you will be a force to be reckoned with.</p>
-                                        </div>
-                                        <div class="tab-icon">
-                                            <div class="icon-sm">
-                                                <i class="icon icon-puzzle"></i>
-                                            </div>
-                                            <p class="large">Product-Market-Fit</p>
-                                            <p>Ultimately, our job is to help you sell more and we strongly believe in the customer development methodology. Our Managing Directors are worldrenouned experts in helping companies of all sizes achieve product-market-fit.</p>
+                                            <p class="large">Tons of Elements</p>
+                                            <p> Repudiandae expedita, non aperiam, ea quia dolorem quidem pariatur culpa explicabo voluptatem alias voluptas itaque similique officia.</p>
                                         </div>
                                     </div>
                                     <!-- Image-Left -->
@@ -583,137 +484,123 @@
             <div class="wrapper-lg">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 class="text-white">Schedule a Tour of EIC Today!</h2>
-                        <p class="large text-white">We Welcome Entrepreneurs, Companies, Universities, and Service Provides.</p>
-                        <!-- Handwritten text with arrow -->
-                        <p class="signup-handwritten text-white">Start building the future! <br>No credit card needed!</p>
+                        <h2 class="text-white">2015 Timeline</h2>
+                        <div class="row">
+                            <!-- Signup Form -->
+                            <form id="signup-divider" role="form">
+                                <!-- Signup Button -->
+                                <button class="btn btn-color">Apply Today</button>
+                            </form>
+                        </div><!-- /End Row -->
                     </div>
                 </div>
-
-                <!-- div class="row"> -->
-                    <!-- Signup Form -->
-                    <!-- <form id="signup-divider" role="form"> -->
-                        <!-- Notification -->
-                        <!-- <p class="signup-success"><i class="icon icon_check_alt2"></i> <strong>Congratulation! Welcome to 30 day Free Trial. Check your email address.</strong></p>
-                        <p class="signup-failed"><i class="icon icon_close_alt2"></i><strong> Something went wrong! Insert correct value.</strong></p>   -->
-
-                        <!-- Input fields -->
-                        <!-- <div class="form-group">
-                            <input type="email" name="signup-email" id="signup-email" class="form-control input-lg" placeholder="Enter your Email-Address" required>
+                <br>
+                <ul class="timeline">
+                    <li>
+                      <div class="timeline-badge warning"><i class="fa fa-chevron-circle-down"></i></div>
+                      <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <div class="timeline-title"><h4>June 1, 2015</h4></div>
                         </div>
-                        <div class="form-group">
-                            <input type="password" size="25" name="signup-password" id="signup-password" class="form-control input-lg" placeholder="Enter your Password" required>
+                        <div class="timeline-body">
+                          <p>APPLICATIONS OPEN</p>
                         </div>
-                        <!-- Signup Button -->
-                        <!-- <button class="btn btn-color">Join Today <i class="icon arrow_right"></i></button>
-                    </form> -->
-                <!-- </div> --> <!-- /End Row -->
+                      </div>
+                    </li>
+                    <li class="timeline-inverted">
+                      <div class="timeline-badge warning"><i class="fa fa-chevron-circle-down"></i></div>
+                      <div class="timeline-panel">
+                        <div class="timeline-heading">
+                          <div class="timeline-title"><h4>August 1, 2015</h4></div>
+                        </div>
+                        <div class="timeline-body">
+                          <p>APPLICATION DEADLINE</p>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="timeline-badge warning"><i class="fa fa-chevron-circle-down"></i></div>
+                      <div class="timeline-panel">
+                        <div class="timeline-heading">
+                          <div class="timeline-title"><h4>November 30, 2015</h4></div>
+                        </div>
+                        <div class="timeline-body">
+                          <p>PROGRAM BEGINS</p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="timeline-inverted">
+                      <div class="timeline-badge warning"><i class="fa fa-flag-checkered"></i></div>
+                      <div class="timeline-panel">
+                        <div class="timeline-heading">
+                          <div class="timeline-title"><h4>December 10, 2015</h4></div>
+                        </div>
+                        <div class="timeline-body">
+                          <p>DEMO DAY</p>
+                        </div>
+                      </div>
+                    </li>
+                </ul>
             </div><!-- /End Wrapper -->
         </div><!-- /End Container -->
     </section>
     <!-- =============================
          /END SIGNUP SECTION 
     ============================== -->
+    
 
-
-    <!-- =======================================================
-         TESTIMONIALS WITH PRESS/CLIENTS LOGOS
-    ============================================================ -->
-    <section class="testimonial-press light-bg" id="testimonials">
-        <div class="container vmiddle">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>What our users are saying</h2>
-                    <p class="large">Find out why our users keep using SmartMvp</p>
+    <!-- =============================
+         PRICING SECTION
+    ============================== -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="wrapper-lg">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h2>Funding</h2>
+                        <!-- <p class="large">Choose the plan that suits you best. 30 Days Free Trial with all plans.</p> -->
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="tabs testimonials tab-container">
-                    <div class="col-md-8">
-                        <div class="panel-container">
-                            <div class="tab-block" id="tab-testimonials-1">
-                                <blockquote>
-                                    <!-- Testimonial quote -->
-                                    <p>Placeat ut recusandae maiores, aliquam error. Sequi accusamus nostrum porro reprehenderit commodi delectus omnis similique possimus non aut, dicta rem iste nemo perferendis, incidunt mollitia asperiores at tenetur dolores ut libero necessitatibus veritatis fuga. Ut sequi assumenda odit.</p>
-                                    <!-- Testimonial image -->
-                                    <img src="assets/images/testimonials/testimonial-1.jpg" alt=" ">
-                                    <!-- Testimonial info -->
-                                    <p class="testimonial-name"><span>James Knight</span>Manager @ LoremIpsum</p>
-                                </blockquote>
-                            </div><!-- /End Tab-block -->
-                            <div class="tab-block" id="tab-testimonials-2">
-                                <blockquote>
-                                    <!-- Testimonial quote -->
-                                    <p>Iusto quam fugit consequatur explicabo at deserunt eius vel, debitis non itaque blanditiis error iure modi, asperiores molestiae dolorum! Earum expedita sit, nesciunt neque magnam at dolorem praesentium saepe! Rerum recusandae qui quidem, a neque consequatur laboriosam.</p>
-                                    <!-- Testimonial image -->
-                                    <img src="assets/images/testimonials/testimonial-2.jpg" alt=" ">
-                                    <!-- Testimonial info -->
-                                    <p class="testimonial-name"><span>Nathan Wood</span>Chief Technology Officer @ StartupIpsum</p>
-                                </blockquote>
-                            </div><!-- /End Tab-block -->
-                            <div class="tab-block" id="tab-testimonials-3">
-                                <blockquote>
-                                    <!-- Testimonial quote -->
-                                    <p>Commodi quod eligendi molestiae quaerat temporibus odio alias, nobis repudiandae eum molestias libero modi non ipsum architecto facere cumque esse veritatis voluptatibus. Quia eius nulla deleniti impedit officia quidem temporibus, enim! Ab ex, ipsa ullam asperiores itaque.</p>
-                                    <!-- Testimonial image -->
-                                    <img src="assets/images/testimonials/testimonial-3.jpg" alt=" ">
-                                    <!-- Testimonial info -->
-                                    <p class="testimonial-name"><span>Amber Evans</span>Chief Marketing Officer @ AgencyLorem</p>
-                                </blockquote>
-                            </div><!-- /End Tab-block -->
-                            <div class="tab-block" id="tab-testimonials-4">
-                                <blockquote>
-                                    <!-- Testimonial quote -->
-                                    <p>Aliquid doloremque ipsum ipsam molestias aliquam ab quod mollitia sed. Vero sapiente voluptatem, voluptatum excepturi a doloribus. Dicta sit quo sed, eaque! Voluptates in illo maiores corporis? Placeat ut recusandae maiores, aliquam error. Sequi accusamus nostrum porro.</p>
-                                    <!-- Testimonial image -->
-                                    <img src="assets/images/testimonials/testimonial-4.jpg" alt=" ">
-                                    <!-- Testimonial info -->
-                                    <p class="testimonial-name"><span>Harry Palmer</span>CEO and Founder @ IpsumSite</p>
-                                </blockquote>
-                            </div><!-- /End Tab-block -->
-                        </div><!-- /End Panel-container -->
-                    </div><!-- /End Col -->
-                        
-                    <ul class="etabs col-md-4 list-unstyled">
-                        <li class="tab col-md-6">
-                            <a href="#tab-testimonials-1">
-                                <!-- Testimonial logo -->
-                                <img src="assets/images/press-logos/press-3.png" alt="">
-                            </a>
-                        </li>
-                        <li class="tab col-md-6">
-                            <a href="#tab-testimonials-2">
-                                <!-- Testimonial logo -->
-                                <img src="assets/images/press-logos/press-2.png" alt="">
-                            </a>
-                        </li>
-                        <li class="tab col-md-6">
-                            <a href="#tab-testimonials-3">
-                                <!-- Testimonial logo -->
-                                <img src="assets/images/press-logos/press-1.png" alt="">
-                            </a>
-                        </li>
-                        <li class="tab col-md-6">
-                            <a href="#tab-testimonials-4">
-                                <!-- Testimonial logo -->
-                                <img src="assets/images/press-logos/press-4.png" alt="">
-                            </a>
-                        </li>
-                    </ul><!-- /End Etabs --> 
+                
+                <!-- Pricing Tabs-->
+                <div class="row grid-md">
+                    <div class="col-sm-12">
+                        <div class="pricing-tab">
+                            <p class="price">$50,000</p>
+                            <h4>7% Equity Stake</h4>
+                            <ul class="pricing-features">
+                                <li>Access to corporate executives</li>
+                                <li>State of the art prototyping, testing and manufacturing equipment</span></li>
+                                <li>60+ Mentors from the energy, power and control industry</li>
+                                <li>Customized customer and sales development plans</li>
+                                <li>Access to the Mid-West's top investors</li>
+                            </ul>
+                            <a href="#canvas-bg" class="btn btn-color scrollto">Apply</a>
+                        </div>
+                    </div>
 
-                </div><!-- /End Tabs --> 
-            </div><!-- /End Row -->
+                    <!-- Pricing Footer -->
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="pricing-more">
+                                <p><strong>Equity Investment</strong> &mdash; We use industry standard documents approved by the world's best angel investors, accelerators and entrepreneurs. Our terms are entrepreneurial friendly and consistent. We work with your existing cap table to structure a deal that favors you getting your business to scale! <strong> <a href="mailto:#">Contact us <i class="icon arrow_carrot-right_alt2"></i></a></strong> </p>
+                            </div>
+                        </div>
+                    </div><!-- /End Row Pricing Footer -->
+                
+                </div><!-- /End Row Pricing Tab -->
+            </div><!-- /End Wrapper -->
         </div><!-- /End Container -->
     </section>
     <!-- =============================
-         /END TESTIMONIALS
+         /END PRICING SECTION 
     ============================== -->
     
 
     <!-- ==================================================
         TEAM
     ======================================================= -->
-    <section class="team white-bg" id="team">
+    <section class="team light-bg" id="team">
         <div class="container">
             <div class="wrapper-lg">
                 <div class="row">
@@ -727,82 +614,25 @@
                     <div class="col-sm-4 team-box">
                         <div class="team-img">
                             <img src="assets/images/team-placeholder.jpg" class="img-responsive" alt="">
-                            <div class="img-overlay">
-                                <div class="img-icons">
-                                    <span class="icon-white">
-                                        <a href="#">
-                                            <i class="icon icon-facebook"></i>
-                                        </a>
-                                    </span>
-                                    <span class="icon-white">
-                                        <a href="#">
-                                            <i class="icon icon-twitter"></i>
-                                        </a>
-                                    </span>
-                                    <span class="icon-white">
-                                        <a href="#">
-                                            <i class="icon icon-linkedin"></i>
-                                        </a>
-                                    </span>
-                                </div>  
-                            </div>
                         </div>
                         <h4>Lukas Mayr</h4>
-                        <p class="team-bio"><span class="text-color">Lead designer</span> with experience in most things visual. He loves trying out new techniques and finding the perfect solution for any kind of requirements.</p>
+                        <p class="team-bio"><span class="text-color">Lead designer</span> with experience in most things visual</p>
                     </div>
                     <!-- Team Box -->
                     <div class="col-sm-4 team-box">
                         <div class="team-img">
                             <img src="assets/images/team-placeholder.jpg" class="img-responsive" alt="">
-                            <div class="img-overlay">
-                                <div class="img-icons">
-                                    <span class="icon-white">
-                                        <a href="#">
-                                            <i class="icon icon-facebook"></i>
-                                        </a>
-                                    </span>
-                                    <span class="icon-white">
-                                        <a href="#">
-                                            <i class="icon icon-twitter"></i>
-                                        </a>
-                                    </span>
-                                    <span class="icon-white">
-                                        <a href="#">
-                                            <i class="icon icon-linkedin"></i>
-                                        </a>
-                                    </span>
-                                </div>  
-                            </div>
                         </div>
-                        <h4>Isabella Knudsen</h4>
-                        <p class="team-bio"><span class="text-color">Director of Growth and Customer Acquisition</span>. She enjoys the finer details of a project, considering every stage of its journey from planning to completion.</p>
+                        <h4>Lukas Mayr</h4>
+                        <p class="team-bio"><span class="text-color">Lead designer</span> with experience in most things visual</p>
                     </div>
                     <!-- Team Box -->
                     <div class="col-sm-4 team-box">
                         <div class="team-img">
                             <img src="assets/images/team-placeholder.jpg" class="img-responsive" alt="">
-                            <div class="img-overlay">
-                                <div class="img-icons">
-                                    <span class="icon-white">
-                                        <a href="#">
-                                            <i class="icon icon-facebook"></i>
-                                        </a>
-                                    </span>
-                                    <span class="icon-white">
-                                        <a href="#">
-                                            <i class="icon icon-twitter"></i>
-                                        </a>
-                                    </span>
-                                    <span class="icon-white">
-                                        <a href="#">
-                                            <i class="icon icon-linkedin"></i>
-                                        </a>
-                                    </span>
-                                </div>  
-                            </div>
                         </div>
-                        <h4>Adrien Simon</h4>
-                        <p class="team-bio"><span class="text-color">Full stack hacker, product design, backend development, user interface and everything in between.</span> He likes to keep things simple and focus on the little details.</p>
+                        <h4>Lukas Mayr</h4>
+                        <p class="team-bio"><span class="text-color">Lead designer</span> with experience in most things visual</p>
                     </div>
                 </div><!-- /End Row -->
             </div><!-- End Wrapper -->
@@ -811,68 +641,6 @@
     <!-- =============================
          /END TEAM SECTION 
     ============================== -->
-    
-        
-    <!-- ==================================================
-        MOBILE DOWNLOAD SECTION
-    ======================================================= -->
-<!--     <section class="mobile-download light-bg" id="mobile-download">
-        <div class="container">
-            <div class="wrapper-lg">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>Download the App</h2>
-                        <p class="large">Don't miss the chance to get our amazing Mobile Application. Get connected anytime.</p>
-                    </div>
-                </div>
-                <div class="row"> -->
-                    <!-- Text and Mobile Download Buttons -->
-                    <!-- <div class="col-sm-6 col-md-4">
-                        <h3>Supercharge your Productivity</h3>
-                        <p class="mobile-text">With an online dashboard and a mobile app, you'll have full control of your account and see your usage in real-time. <span class="text-color">Even more convenient!</span></p>
-                        <a href="#" class="btn btn-color"><i class="icon icon_cloud-download_alt"></i>Download Now!!</a>
-                    </div> -->
-                  
-                    <!-- <div class="col-sm-6 col-md-4"> -->
-                        <!-- Screenshot Carousel -->
-                        <!-- <div class="shot-container">
-                            <div id="owl-carousel-shots-phone" class="owl-carousel">
-                                <div class="owl-container text-center shots-modal">
-                                    <img src="assets/images/app-screenshots/app-screenshot1alt.jpg" alt="" title="this is the title" />
-                                </div>
-                                <div class="owl-container text-center shots-modal">
-                                    <img src="assets/images/app-screenshots/app-screenshot2alt.jpg" alt="" title="this is the title" />
-                                </div>
-                                <div class="owl-container text-center shots-modal">
-                                    <img src="assets/images/app-screenshots/app-screenshot3alt.jpg" alt="" title="this is the title" />
-                                </div> -->
-                            <!-- </div> /End owl carousel -->
-                        <!-- </div>/End Container -->
-                    <!-- </div> -->
-
-                    <!-- <div class="col-sm-12 col-md-4 right-features"> -->
-                        <!-- More Features -->
-                        <!-- <div class="col-sm-4 col-md-12">
-                            <h4>Get Notified</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam inventore.</p>
-                        </div>
-                        <div class="col-sm-4 col-md-12">
-                            <h4>Add Data in Seconds</h4>
-                            <p>Magnam beatae similique molestias incidunt, assumenda dolorem ea deserunt.</p>
-                        </div>
-                        <div class="col-sm-4 col-md-12">
-                            <h4>Real Time Alerts</h4>
-                            <p>Accusantium at sapiente mollitia asperiores quisquam rerum hic et animi.</p>
-                        </div>
-                    </div> -->
-                <!-- </div>/End Row -->
-            <!-- </div>/End Wrapper -->
-        <!-- </div>/End Container -->
-    <!-- </section> -->
-    <!-- =============================
-         /END MOBILE DOWNLOAD SECTION 
-    ============================== -->
-
     
     <!-- ==================================================
         NEWSLETTER AND SOCIAL DIVIDER
@@ -996,12 +764,11 @@
                     <div class="col-md-5">
                             <!-- Logo -->
                             <a href="#top" class="scrollto" title="SmartMvp">
-                                <span class="text-logo">SmartMvp</span>
+                                <span class="text-logo">M-WERC</span>
                             </a>
-                            <p class="footer-hero"><strong>600.000</strong> users registered since January.</p>
-                            <p class="footer-text">We've created the product that will help your startup get better marketing results with beautiful design.</p>
-                            <p class="footer-cta">What are you waiting for?
-                                <a href="#top" class="btn btn-color">Purchase this Design</a>
+                            <p class="footer-hero"><strong>Mid-West Energy Research Consortium</strong> Our vision is to make the Midwest Region the Leader in Energy, Power & Control. The Energy Innovation Center is host to various startup and entrepreneurial programs to support new innovations in collaboration with our industry partners.</p><br>
+                            <!-- <p class="footer-cta">What are you waiting for? -->
+                                <a href="#top" class="btn btn-color">Apply Today</a>
                             </p> 
                     </div>
                     <!-- Footer Contact Col -->
@@ -1012,7 +779,7 @@
                                 <i class="icon icon_mail"></i>
                             </div>
                             <div class="contact-content">
-                                <a href="mailto:hi@themedept.com">hi@themedept.com</a>
+                                <a href="mailto:hi@themedept.com">hello@m-werc.org</a>
                             </div>
                         </div>
                         <div class="contact-item">
@@ -1020,8 +787,8 @@
                                 <i class="icon icon_pin"></i>
                             </div>
                             <div class="contact-content">
-                                121 King Street, Melbourne<br>
-                                Victoria 3000 Australia
+                                4201 N. 27th Street, 7th Floor<br>
+                                Milwaukee, WI 53216
                             </div>
                         </div>
                         <div class="contact-item">
@@ -1029,15 +796,15 @@
                                 <i class="icon icon_phone"></i>
                             </div>
                             <div class="contact-content">
-                                1-234-567-89
+                                1-414-444-8208
                             </div>
                         </div>
                     </div>
                     <!-- Footer Right Col: Twitter Feed -->
-                    <div class="col-md-4">
+                   <!--  <div class="col-md-4">
                             <h5 class="text-white">Recent Tweets</h5>
                             <div class="tweet"></div>
-                    </div>
+                    </div> -->
 
                     <!-- Footer Menu and Copy -->
                     <div class="row">
@@ -1047,10 +814,10 @@
                                     <a href="#">About</a>
                                 </li>
                                 <li>
-                                    <a href="#">M-WERC</a>
+                                    <a href="#">Blog</a>
                                 </li>
                                 <li>
-                                    <a href="#">EPIC</a>
+                                    <a href="#">Help</a>
                                 </li>
                                 <li>
                                     <a href="#">Terms</a>
@@ -1059,7 +826,7 @@
                                     <a href="#">Privacy</a>
                                 </li>
                             </ul>
-                            <p class="footer-copy">&copy; 2014 - Mid-West Energy Research Consortium</p>
+                            <p class="footer-copy">&copy; 2015 - Midwest Energy Research Consortium.</p>
                         </div>
                     </div>
                     
@@ -1078,11 +845,8 @@
     <script src="assets/js/plugins/modernizr.custom.min.js"></script>
     <script src="assets/js/plugins/plugins.min.js"></script>
     <script src="assets/js/plugins/twitter/tweetie.min.js"></script>
-    <script src="assets/js/plugins/videobg/videoplugins.min.js"></script>
-
     <!-- Custom Script -->
     <script src="assets/js/custom.js"></script>
-    <script src="assets/js/plugins/videobg/videobg.js"></script>
 
     
 
