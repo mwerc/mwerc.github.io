@@ -436,6 +436,8 @@ p {
 }
 
 
+
+
 /* ==========================================================================
    03. BUTTONS & ICONS
 ========================================================================== */ 
@@ -549,6 +551,17 @@ p {
 }
 
 .header .overlay {
+    height: 650px;
+}
+
+.header2{
+    background: url("../images/crazy_einstein.jpg") no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    background-size: cover;   
+}
+
+.header2 .overlay {
     height: 800px;
 }
 
@@ -666,6 +679,14 @@ p {
 .hero-section .btn{
     margin-bottom: 0;
 } 
+
+.hero-section h2 {
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 70px;
+}
 
 /*------------------------------------------*/
 /*   Header Solid-Background
