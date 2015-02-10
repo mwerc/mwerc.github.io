@@ -107,15 +107,23 @@ ul {
 /*------------------------------------------*/
 /*   Font Awesome Icons  
 /*------------------------------------------*/
-.fa-bolt {
+.fa-globe {
     color: #C0392B;
 }
 
-.fa-power-off {
+.fa-plug {
     color: #C0392B;
 }
 
-.fa-tachometer {
+.fa-line-chart {
+    color: #C0392B;
+}
+
+.fa-money {
+    color: #C0392B;
+}
+
+.fa-share-alt {
     color: #C0392B;
 }
 
