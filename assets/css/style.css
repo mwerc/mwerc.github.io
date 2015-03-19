@@ -107,7 +107,7 @@ ul {
 /*------------------------------------------*/
 /*   Font Awesome Icons  
 /*------------------------------------------*/
-.fa-globe {
+.fa-wrench {
     color: #C0392B;
 }
 
@@ -115,15 +115,27 @@ ul {
     color: #C0392B;
 }
 
-.fa-line-chart {
+.fa-eye {
     color: #C0392B;
 }
 
-.fa-money {
+.fa-gamepad {
     color: #C0392B;
 }
 
-.fa-share-alt {
+.fa-cogs {
+    color: #C0392B;
+}
+
+.fa-tint {
+    color: #C0392B;
+}
+
+.fa-desktop {
+    color: #C0392B;
+}
+
+.fa-fighter-jet {
     color: #C0392B;
 }
 
@@ -552,7 +564,7 @@ p {
 /*   Header Background Parallax Settings
 /*------------------------------------------*/
 .header{
-    background: url("../images/headerJeff.jpg") no-repeat center top fixed;
+    background: url("../images/hardware.jpg") no-repeat center top fixed;
     -webkit-background-size: cover;
     -moz-background-size:cover;
     background-size: cover;   
@@ -878,6 +890,32 @@ p {
     -moz-background-size: cover;
     background-size: cover;
 }*/
+
+/* ==========================================================================
+   07. TESTIMONIALS
+========================================================================== */ 
+
+.investment {
+    font-size: 70px;
+    color: #C0392B;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 60px;
+    line-height: 60px;
+}
+
+.grants {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.perstartup {
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    padding-top: 20px;
+}
 
 
 /* ==========================================================================
