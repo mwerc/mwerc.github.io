@@ -27,9 +27,11 @@ Tags: startup landing page, app landing page, html5 template, one page, startup,
 /*   10 - Charts & Showcase Section              */
 /*   11 - Pricing Tabs                           */
 /*   12 - Team Section                           */
-/*   13 - Mobile Download Section                */
-/*   14 - Footer                                 */
-/*   15 - Countdown                              */
+/*   14 - Mentor Section		                 */
+/*   15 - Mobile Download Section                */
+/*   16 - Footer                                 */
+/*   17 - Countdown                              */
+/*   18 - FAQ                                    */
 
 
 
@@ -2096,4 +2098,287 @@ p {
             right: auto;
         }
 }
+/*----------------------------------------------------------*/
+/* 18. FAQ
+/*----------------------------------------------------------*/
+.faq-answers {
+width:100%;
+background:url(images/global/bg-faq-answers.png) 0 0 no-repeat;
+margin:50px 0 0 0;
+clear:both;
+padding-top:60px;
+}
+
+.faq-pad {
+padding-top:80px !important;
+}
+
+.faq-wrap {
+/*width:960px;*/
+clear:both;
+margin-bottom:15px;
+}
+
+.faq-content {
+width:800px;
+float:right;
+}
+
+.faq-content p {
+padding:10px;
+padding-bottom:5px;
+}
+
+.faq-content .faq-heading {
+margin-bottom:0px;
+padding-top:0px;
+font-weight:600;
+font-size:14px;
+}
+
+/* .faq-questions a {
+border-bottom:1px dotted #999;
+} */
+
+.faq-questions a:hover,
+.s-one ul li a,
+.s-one .current-page-ancestor a,
+.s-one .current-page-ancestor ul li a,
+.home-vertical-sidebar .widget-heading,
+.tt-icon strong {
+text-decoration:none;
+}
+
+.go_to_top {
+font-size:9px;
+text-transform:uppercase;
+display:block;
+font-weight:600;
+line-height:18px;
+}
+
+.basic-divider {
+background: url(images/global/bg-divider-basic.png) right center no-repeat;
+clear: both;
+display: block;
+height: 20px;
+margin: 30px 0;
+text-align: right;
+width:100%;
+}
+
+.faq-number {
+width:120px;
+height:87px;
+float:left;
+margin-right:40px;
+background:url(images/global/bg-faq-numbers.png) 0 0 no-repeat;
+}
+
+.img-frame + .faq-questions {
+padding-top:10px;
+}
+
+.answer_1 {
+background-position: 0 0;
+}
+
+.answer_2 {
+background-position: 0 -87px;
+}
+
+.answer_3 {
+background-position: 0 -177px;
+}
+
+.answer_4 {
+background-position: 0 -266px;
+}
+
+.answer_5 {
+background-position: 0 -354px;
+}
+
+.answer_6 {
+background-position: 0 -443px;
+}
+
+.answer_7 {
+background-position: 0 -532px;
+}
+
+.answer_8 {
+background-position: 0 -620px;
+}
+
+.answer_9 {
+background-position: 0 -709px;
+}
+
+.answer_10 {
+background-position: 0 -798px;
+}
+
+.answer_11 {
+background-position: 0 -886px;
+}
+
+.answer_12 {
+background-position: 0 -974px;
+}
+
+.answer_13 {
+background-position: 0 -1062px;
+}
+
+.answer_14 {
+background-position: 0 -1150px;
+}
+
+.answer_15 {
+background-position: 0 -1241px;
+}
+
+.answer_16 {
+background-position: 0 -1331px;
+}
+
+.answer_17 {
+background-position: 0 -1417px;
+}
+
+.answer_18 {
+background-position: 0 -1507px;
+}
+
+.answer_19 {
+background-position: 0 -1595px;
+}
+
+.answer_20 {
+background-position: 0 -1684px;
+}
+
+.answer_21 {
+background-position: 0 -1772px;
+}
+
+.answer_22 {
+background-position: 0 -1860px;
+}
+
+.answer_23 {
+background-position: 0 -1950px;
+}
+
+.answer_24 {
+background-position: 0 -2038px;
+}
+
+.answer_25 {
+background-position: 0 -2127px;
+}
+
+.answer_26 {
+background-position: 0 -2216px;
+}
+
+.answer_27 {
+background-position: 0 -2304px;
+}
+
+.answer_28 {
+background-position: 0 -2393px;
+}
+
+.answer_29 {
+background-position: 0 -2481px;
+}
+
+.answer_30 {
+background-position: 0 -2570px;
+}
+
+.answer_31 {
+background-position: 0 -2659px;
+}
+
+.answer_32 {
+background-position: 0 -2748px;
+}
+
+.answer_33 {
+background-position: 0 -2836px;
+}
+
+.answer_34 {
+background-position: 0 -2925px;
+}
+
+.answer_35 {
+background-position: 0 -3013px;
+}
+
+
+.answer_36 {
+background-position: 0 -3102px;
+}
+
+.answer_37 {
+background-position: 0 -3191px;
+}
+
+.answer_38 {
+background-position: 0 -3279px;
+}
+
+.answer_39 {
+background-position: 0 -3368px;
+}
+
+.answer_40 {
+background-position: 0 -3457px;
+}
+
+.answer_41 {
+background-position: 0 -3546px;
+}
+
+.answer_42 {
+background-position: 0 -3634px;
+}
+
+.answer_43 {
+background-position: 0 -3723px;
+}
+
+.answer_44 {
+background-position: 0 -3812px;
+}
+
+.answer_45 {
+background-position: 0 -3901px;
+}
+
+.answer_46 {
+background-position: 0 -3989px;
+}
+
+.answer_47 {
+background-position: 0 -4077px;
+}
+
+.answer_48 {
+background-position: 0 -4165px;
+}
+
+.answer_49 {
+background-position: 0 -4254px;
+}
+
+.answer_50 {
+background-position: 0 -4343px;
+}
+
+
 
