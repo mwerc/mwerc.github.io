@@ -25,7 +25,7 @@ Tags: startup landing page, app landing page, html5 template, one page, startup,
 /*   08 - Features Tab                           */
 /*   09 - Fast Reg, Newsletter & Signup Divider  */
 /*   10 - Charts & Showcase Section              */
-/*   11 - Pricing Tabs                           */
+/*   11 - Funding Tabs                           */
 /*   12 - Team Section                           */
 /*   14 - Mentor Section		                 */
 /*   15 - Mobile Download Section                */
@@ -1385,7 +1385,7 @@ p {
 
 
 /* ==========================================================================
-   11. PRICING TABS
+   11. FUNDING TABS
 ========================================================================== */ 
 .pricing-tab {
     padding: 50px 30px 30px;
@@ -2096,7 +2096,7 @@ p {
             left: -14px;
             right: auto;
         }
-}
+
 
 
 
