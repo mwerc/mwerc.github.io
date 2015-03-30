@@ -619,7 +619,8 @@ p {
 
 /* Img-Logo Fixes */
 .navbar-brand.img-logo{
-    padding:0;
+    padding:5px;
+    height: auto;
 }
 
 /*------------------------------------------*/
