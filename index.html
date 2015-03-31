@@ -34,6 +34,25 @@
             <script src="assets/js/plugins/html5shiv.min.js"></script>
             <script src="assets/js/plugins/respond.min.js"></script>
     <![endif]-->
+    <!-- SMOOTH SCROLL -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
+<!-- End of SMOOTH SCROLL -->
 </head>
 <body data-spy="scroll">
     <!-- =========================
@@ -78,9 +97,9 @@
                             <div class="navbar-collapse collapse">
                                 <ul class="nav navbar-nav navbar-right">
                                     <!-- Menu Items -->
-                                    <li><a href="#about" title="" class="scrollto">Overview</a></li>
+                                    <li><a class="scrollto" href="#about" title="">Overview</a></li>
                                     <li><a href="#howitworks" title="" class="scrollto">How it Works</a></li>
-                                    <li><a href="#faq" class="scrollto" title="">FAQ</a></li>
+                                    <li><a href="#faq" title="" class="scrollto">FAQ</a></li>
                                     <li><a href="#funding" title="" class="scrollto">Funding</a></li>
                                     <li><a href="#mentors" title="" class="scrollto">Mentors</a></li>
                                     <li><a href="#contact" title="" class="scrollto">About/Contact Us</a></li>
@@ -716,7 +735,7 @@
 	                    </a>
                     </div>
                     <div class="col-md-3">
-						<a href="https://www.linkedin.com/pub/rafael-santana/11/647/105">
+						<a href="https://www.linkedin.com/pub/jon-hopkins/0/925/6b6">
                             <img src="assets/images/Mentors/Jon.jpg" class="img-col-md" alt="">
 							<h5>Jon Hopkins, BSChe., MSCS</h5>
 							<p>Serial Entrepreneur</p>
