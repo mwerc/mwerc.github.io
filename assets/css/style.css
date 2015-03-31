@@ -643,7 +643,7 @@ p {
 
 .navbar-nav>li>a:hover, .navbar-nav>li>a:focus, .navbar-nav>.active>a, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus{
     color: #ffffff;
-    background-color: #E23933
+    background-color: transparent;
 }
 
 /*------------------------------------------*/
