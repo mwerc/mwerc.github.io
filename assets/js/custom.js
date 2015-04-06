@@ -648,23 +648,22 @@ if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
         );
     document.querySelector('head').appendChild(msViewportStyle);
 }
-
-
 });
 
-$('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
-        || location.hostname == this.hostname) {
+$(".bs-js-navbar-scrollspy li a[href^='#']").on('click', function(event) {
+  var target;
+  target = this.hash;
 
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-           if (target.length) {
-             $('html,body').animate({
-                 scrollTop: target.offset().top
-            }, 1000);
-            return false;
-        }
-    }
+  event.preventDefault();
+
+  var navOffset;
+  navOffset = $('#navbar').height();
+
+  return $('html, body').animate({
+    scrollTop: $(this.hash).offset().top - navOffset
+  }, 300, function() {
+    return window.history.pushState(null, null, target);
+  });
 });
 
 
