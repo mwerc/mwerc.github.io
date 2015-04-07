@@ -113,7 +113,7 @@ $(window).scroll(function(){
 =================================== */
 (function($) {
     
-    "use strict";
+    "use strict";scrolling-nav.js
     
     $('body').attr('data-spy', 'scroll').attr('data-target', '.navbar-fixed-top').attr('data-offset', '11');
 
@@ -650,20 +650,6 @@ if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
 }
 });
 
-$(".bs-js-navbar-scrollspy li a[href^='#']").on('click', function(event) {
-  var target;
-  target = this.hash;
 
-  event.preventDefault();
-
-  var navOffset;
-  navOffset = $('#navbar').height();
-
-  return $('html, body').animate({
-    scrollTop: $(this.hash).offset().top - navOffset
-  }, 300, function() {
-    return window.history.pushState(null, null, target);
-  });
-});
 
 
