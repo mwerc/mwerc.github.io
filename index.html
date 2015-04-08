@@ -15,30 +15,24 @@
     ============================== -->
     <!-- BOOTSTRAP CSS -->
     <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css">
-
     <!-- FONT ICONS -->
     <link rel="stylesheet" href="assets/css/icons/icons.min.css">
-
     <!-- GOOGLE FONTS -->
     <link href="http://fonts.googleapis.com/css?family=Raleway:300,400,600,700%7COpen+Sans:300,400,600,700%7CHandlee" rel="stylesheet">
-
     <!-- PLUGINS STYLESHEET -->
     <link rel="stylesheet" href="assets/css/plugins/plugins.min.css">
-
     <!-- CUSTOM STYLESHEET -->
     <link rel="stylesheet" href="assets/css/style.css">
-
     <!-- RESPONSIVE FIXES -->
     <link rel="stylesheet" href="assets/css/responsive.css">
-
-    <!-- COLORE STYLESHEET -->
+    <!-- COLOR STYLESHEET -->
     <!-- Change here the Main Color of the Site: Choose your favorite predefined color from assets/css/colors.css -->
-    <link rel="stylesheet" href="assets/css/colors/red.css" title="midnight-blue">
-
-
+    <link rel="stylesheet" href="assets/css/colors/red.css" title="red">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <!--[if lt IE 9]>
-    <script src="assets/js/plugins/html5shiv.min.js"></script>
-    <script src="assets/js/plugins/respond.min.js"></script>
+            <script src="assets/js/plugins/html5shiv.min.js"></script>
+            <script src="assets/js/plugins/respond.min.js"></script>
     <![endif]-->
     
 </head>
@@ -85,12 +79,12 @@
                             <div class="navbar-collapse collapse">
                                 <ul class="nav navbar-nav navbar-right">
                                     <!-- Menu Items -->
-                                    <li><a href="#overview" title="" class="scroll">Overview</a></li>
-                                    <li><a href="#howitworks" title="" class="scroll">How it Works</a></li>
-                                    <li><a href="#faq" title="" class="scroll">FAQ</a></li>
-                                    <li><a href="#funding" title="" class="scroll">Funding</a></li>
-                                    <li><a href="#mentors" title="" class="scroll">Mentors</a></li>
-                                    <li><a href="#contact" title="" class="scroll">About/Contact Us</a></li>
+                                    <li><a href="#overview">Overview</a></li>
+                                    <li><a href="#howitworks">How it Works</a></li>
+                                    <li><a href="#faq">FAQ</a></li>
+                                    <li><a href="#funding">Funding</a></li>
+                                    <li><a href="#mentors">Mentors</a></li>
+                                    <li><a href="#contact">About/Contact Us</a></li>
                                     <li><a class="btn btn-nav btn-color" href="https://www.f6s.com/wercbenchlabsaccelerator#/apply">Apply</a></li> 
                                 </ul>
                             </div><!-- /End Navbar-Collapse -->
@@ -1048,20 +1042,20 @@
     <!-- Custom Script -->
     <script type="text/javascript" src="assets/js/custom.js"></script>
     <script language="JavaScript">
-    $(document).ready(function(){
-        $('a[href^="#"]').on('click',function (e) {
-            e.preventDefault();
+        $(document).ready(function(){
+            $('a[href^="#"]').on('click',function (e) {
+                e.preventDefault();
 
-            var target = this.hash;
-            var $target = $(target);
+                var target = this.hash;
+                var $target = $(target);
 
-            $('html, body').stop().animate({
-                'scrollTop': $target.offset().top
-            }, 900, 'swing', function () {
-                window.location.hash = target;
+                $('html, body').stop().animate({
+                    'scrollTop': $target.offset().top
+                }, 900, 'swing', function () {
+                    window.location.hash = target;
+                });
             });
         });
-    });
     </script>
 </body>
 </html>
