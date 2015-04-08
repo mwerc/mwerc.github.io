@@ -15,28 +15,34 @@
     ============================== -->
     <!-- BOOTSTRAP CSS -->
     <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css">
+
     <!-- FONT ICONS -->
     <link rel="stylesheet" href="assets/css/icons/icons.min.css">
+
     <!-- GOOGLE FONTS -->
     <link href="http://fonts.googleapis.com/css?family=Raleway:300,400,600,700%7COpen+Sans:300,400,600,700%7CHandlee" rel="stylesheet">
+
     <!-- PLUGINS STYLESHEET -->
     <link rel="stylesheet" href="assets/css/plugins/plugins.min.css">
+
     <!-- CUSTOM STYLESHEET -->
     <link rel="stylesheet" href="assets/css/style.css">
+
     <!-- RESPONSIVE FIXES -->
     <link rel="stylesheet" href="assets/css/responsive.css">
+
     <!-- COLORE STYLESHEET -->
     <!-- Change here the Main Color of the Site: Choose your favorite predefined color from assets/css/colors.css -->
-    <link rel="stylesheet" href="assets/css/colors/red.css" title="red">
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/colors/red.css" title="midnight-blue">
+
+
     <!--[if lt IE 9]>
-            <script src="assets/js/plugins/html5shiv.min.js"></script>
-            <script src="assets/js/plugins/respond.min.js"></script>
+    <script src="assets/js/plugins/html5shiv.min.js"></script>
+    <script src="assets/js/plugins/respond.min.js"></script>
     <![endif]-->
     
 </head>
-<body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="11">
+<body data-spy="scroll">
     <!-- =========================
          PRELOADER
     ============================== -->
@@ -55,7 +61,7 @@
             <!-- =========================================
                  Navigation
             ========================================== -->
-            <nav class="navbar navbar-fixed-top is-scrolling " role="navigation">
+            <nav class="navbar navbar-fixed-top" role="navigation">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -79,12 +85,12 @@
                             <div class="navbar-collapse collapse">
                                 <ul class="nav navbar-nav navbar-right">
                                     <!-- Menu Items -->
-                                    <li class="active"><a href="#overview" title="" class="scrollto">Overview</a></li>
-                                    <li><a href="#howitworks" title="" class="scrollto">How it Works</a></li>
-                                    <li><a href="#faq" title="" class="scrollto">FAQ</a></li>
-                                    <li><a href="#funding" title="" class="scrollto">Funding</a></li>
-                                    <li><a href="#mentors" title="" class="scrollto">Mentors</a></li>
-                                    <li><a href="#contact" title="" class="scrollto">About/Contact Us</a></li>
+                                    <li><a href="#overview" title="" class="scroll">Overview</a></li>
+                                    <li><a href="#howitworks" title="" class="scroll">How it Works</a></li>
+                                    <li><a href="#faq" title="" class="scroll">FAQ</a></li>
+                                    <li><a href="#funding" title="" class="scroll">Funding</a></li>
+                                    <li><a href="#mentors" title="" class="scroll">Mentors</a></li>
+                                    <li><a href="#contact" title="" class="scroll">About/Contact Us</a></li>
                                     <li><a class="btn btn-nav btn-color" href="https://www.f6s.com/wercbenchlabsaccelerator#/apply">Apply</a></li> 
                                 </ul>
                             </div><!-- /End Navbar-Collapse -->
@@ -1038,8 +1044,24 @@
     <script src="assets/js/plugins/plugins.min.js"></script>
     <script src="assets/js/plugins/twitter/tweetie.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <!-- Custom Script -->
     <script type="text/javascript" src="assets/js/custom.js"></script>
+    <script language="JavaScript">
+    $(document).ready(function(){
+        $('a[href^="#"]').on('click',function (e) {
+            e.preventDefault();
+
+            var target = this.hash;
+            var $target = $(target);
+
+            $('html, body').stop().animate({
+                'scrollTop': $target.offset().top
+            }, 900, 'swing', function () {
+                window.location.hash = target;
+            });
+        });
+    });
+    </script>
 </body>
 </html>
