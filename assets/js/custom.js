@@ -113,7 +113,7 @@ $(window).scroll(function(){
 =================================== */
 (function($) {
 
-    "use strict";scrolling-nav.js
+    "use strict";scrolling-nav.js;
 
     $('body').attr('data-spy', 'scroll').attr('data-target', '.navbar-fixed-top').attr('data-offset', '11');
 
