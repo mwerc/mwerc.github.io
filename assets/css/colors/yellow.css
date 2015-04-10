@@ -50,8 +50,7 @@ a, .text-color {
 /*   Header Solid Bg
 /*------------------------------------------*/
 .solid-bg{
-    background:none;
-    background-color: #f1c40f;
+    background: #f1c40f none;
 }
 
 .navbar-nav>li>a.btn-white{
