@@ -647,9 +647,9 @@ p {
     transition: all .5s ease;
 }
 
-.navbar-nav>li>a:hover, .navbar-nav>li>a:focus, .navbar-nav>.active>a, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus{
+.navbar-nav>li>a:hover, .navbar-nav>li>a:focus, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus {
     color: #ffffff;
-    background-color: transparent;
+    background-color: #c0392b;
 }
 
 /*------------------------------------------*/
@@ -1576,7 +1576,7 @@ p {
 }
 
 /* ==========================================================================
-   13. MENTORS SECTION
+   13.  SECTION
 ========================================================================== */
 .mentor h4{
     margin-top: 20px;

@@ -779,6 +779,25 @@
     }
 
     /*------------------------------------------*/
+    /*   Mentor
+    /*------------------------------------------*/
+    .mentor .mentor-img{
+        width:100%;
+        margin-bottom: 10px;
+    }
+
+    .mentor h4{
+        margin-bottom: 5px;
+    }
+
+    .mentor-img .img-icons span i{
+        font-size: 60px;
+        width: 60px;
+        height: 60px;
+        padding: 5%;
+    }
+
+    /*------------------------------------------*/
     /*    Mobile-Download
     /*------------------------------------------*/
     .mobile-download .shot-container{
