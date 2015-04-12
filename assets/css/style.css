@@ -1,11 +1,6 @@
 /* 
-Template Name: SmartMVP - Responsive Premium Startup Landing Page Template
-Theme URL: http://themedept.com/demo/smartmvp/index.html
-Description: SmartMVP - Responsive Premium Startup Landing Page Template
-Author: ThemeDept
-Author URL: http://themedept.com
-Version: 1.0.0
-Website: http://themedept.com
+Template Name: WERCBench
+Description: WERCBENCH
 Tags: startup landing page, app landing page, html5 template, one page, startup, saas, mvp, landing page
 */
 
@@ -651,6 +646,13 @@ p {
     color: #ffffff;
     background-color: #c0392b;
 }
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+    color: #ffffff;
+    background-color: #c0392b;
+}
+
 
 /*------------------------------------------*/
 /*   Navbar Mobile Menu
