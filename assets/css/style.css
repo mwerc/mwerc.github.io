@@ -382,10 +382,10 @@ blockquote img {
 .text-logo{
     font-family: 'Raleway','Open Sans',Helvetica,Arial,sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: bolder;
     letter-spacing: 2px;
     text-transform: uppercase;
-    font-size: 19px;
+    font-size: 24px;
     line-height: 21px;
     color: #ffffff;
 }
@@ -654,16 +654,11 @@ p {
     border-radius: 10px 10px 0px 0px;
 }
 
-.navbar-brand:hover,
-.navbar-brand:focus {
-    color: #ffffff;
-    background-color: #c0392b;
-    -moz-border-radius-topleft: 10px;
-    -moz-border-radius-topright: 10px;
-    -moz-border-radius-bottomright: 10px;
-    -moz-border-radius-bottomleft: 10px;
-    -webkit-border-radius: 10px 10px 10px 10px;
-    border-radius: 10px 10px 10px 10px;
+.navbar-brand .text-logo:hover,
+.navbar-brand .text-logo:focus {
+    color: #c0392b;
+    background-color: transparent;
+
 }
 
 
