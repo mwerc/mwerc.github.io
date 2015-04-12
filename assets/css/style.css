@@ -22,10 +22,12 @@ Tags: startup landing page, app landing page, html5 template, one page, startup,
 /*   10 - Charts & Showcase Section              */
 /*   11 - Funding Tabs                           */
 /*   12 - Team Section                           */
-/*   14 - Mentor Section		                 */
+/*   12 - Mentor Section                         */
+/*   14 - Corporate Section		                 */
 /*   15 - Mobile Download Section                */
 /*   16 - Footer                                 */
 /*   17 - Countdown                              */
+/*   18 - Timelin                                */
 
 
 
@@ -105,35 +107,35 @@ ul {
 /*   Font Awesome Icons
 /*------------------------------------------*/
 .fa-wrench {
-    color: #C0392B;
+    color: #99292D;
 }
 
 .fa-plug {
-    color: #C0392B;
+    color: #99292D;
 }
 
 .fa-eye {
-    color: #C0392B;
+    color: #99292D;
 }
 
 .fa-gamepad {
-    color: #C0392B;
+    color: #99292D;
 }
 
 .fa-cogs {
-    color: #C0392B;
+    color: #99292D;
 }
 
 .fa-tint {
-    color: #C0392B;
+    color: #99292D;
 }
 
 .fa-desktop {
-    color: #C0392B;
+    color: #99292D;
 }
 
 .fa-fighter-jet {
-    color: #C0392B;
+    color: #99292D;
 }
 
 /*------------------------------------------*/
@@ -200,7 +202,7 @@ ul {
     color: #3e3e3e;
     background-color: transparent;
     background-image: none;
-    border: 2px solid #cb6060;
+    border: 2px solid #99292D;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
@@ -510,21 +512,21 @@ p {
 }
 
 .btn-ghost:hover {
-	background: #ffffff;
-	color: #3e3e3e;
+	background: #99292D;
+	color: #ffffff;
 	border-color: #ffffff;
 }
 
 .btn-white {
 	background: #ffffff;
-	color: #c0392b;
+	color: #99292D;
 	border-color: #ffffff;
 }
 
 .btn-white:hover {
-    background: #c0392b;
+    background: #99292D;
     color: #3e3e3e;
-    border-color: #c0392b;
+    border-color: #99292D;
 }
 
 .btn-grey {
@@ -536,7 +538,7 @@ p {
 .btn-grey:hover {
 	color: #ffffff;
 	border-color: #3e3e3e;
-	background-color: #c0392b;
+	background-color: #99292D;
 }
 
 /*------------------------------------------*/
@@ -645,20 +647,20 @@ p {
 
 .navbar-nav>li>a:hover, .navbar-nav>li>a:focus, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus {
     color: #ffffff;
-    background-color: #c0392b;
+    background-color: #99292D;
     border-color: #3e3e3e;
     border-style: solid;
-    -moz-border-radius-topleft: 10px;
-    -moz-border-radius-topright: 10px;
-    -moz-border-radius-bottomright: 10px;
-    -moz-border-radius-bottomleft: 10px;
-    -webkit-border-radius: 10px 10px 10px 10px;
-    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius-topleft: 8px;
+    -moz-border-radius-topright: 8px;
+    -moz-border-radius-bottomright: 8px;
+    -moz-border-radius-bottomleft: 8px;
+    -webkit-border-radius: 8px 8px 8px 8px;
+    border-radius: 8px 8px 8px 8px;
 }
 
 .navbar-brand .text-logo:hover,
 .navbar-brand .text-logo:focus {
-    color: #c0392b;
+    color: #99292D;
     background-color: transparent;
 
 }
@@ -917,7 +919,7 @@ p {
 
 .investment {
     font-size: 70px;
-    color: #C0392B;
+    color: #99292D;
     font-weight: bold;
     text-align: center;
     padding-top: 60px;
@@ -1090,6 +1092,10 @@ p {
    09. FAST-REGISTRATION HEADER, EARLY ACCESS, NEWSLETTER & SIGNUP DIVIDER SECTIONS
 =================================================================================== */
 /* Newsletter */
+.newsletter {
+    background-color: #99292D;
+}
+
 .newsletter .table{
     display: table;
     width: 100%;
@@ -1436,7 +1442,7 @@ p {
 }
 
 .pricing-tab .btn:hover {
-    background: #333333;
+    background: #99292D;
     color: #fff;
     border-color: #333333;
 }
@@ -1588,7 +1594,7 @@ p {
 }
 
 /* ==========================================================================
-   13.  SECTION
+   13.  MENTORS
 ========================================================================== */
 .mentor h4{
     margin-top: 20px;
@@ -1675,9 +1681,102 @@ p {
     padding: 5%;
 }
 
+/* ==========================================================================
+   14.  CORPORATES
+========================================================================== */
+.corporates h4{
+    margin-top: 20px;
+}
+
+.corporates h5 {
+    margin-bottom: 0px;
+}
+
+.corporates p {
+    font-size: 10px;
+    color:black;
+    line-height: 9px;
+    margin-bottom: 10px
+}
+
+.corporates-img{
+    position: relative;
+    overflow: hidden;
+    perspective: 300px;
+    -webkit-perspective: 300px;
+    -ms-perspective: 300px;
+    -o-perspective: 300px;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    border-radius: 5%;
+    opacity:0.85;
+}
+
+.corporates-img .img-overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    opacity: 0;
+    background: rgba(27,27,27,.7);
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+.corporates-img:hover .img-overlay{
+    opacity: 1;
+}
+
+.corporates-img:hover img{
+    -ms-transform: scale(1.5,1.5);
+    -moz-transform: scale(1.5,1.5);
+    -o-transform: scale(1.5,1.5);
+    -webkit-transform: scale(1.5,1.5);
+    transform: scale(1.5,1.5);
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+.corporates-img .img-icons {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.corporates-img .img-icons span{
+    display: inline-block;
+    position: relative;
+    top: 33%;
+    margin: 0 3%;
+}
+
+.corporates-img .img-icons .icon-white a{
+    color:#ffffff;
+}
+
+.corporates-img .img-icons span i{
+    text-align: center;
+    font-size: 60px;
+    width: 60px;
+    height: 60px;
+    padding: 5%;
+}
+
+.corporates-img:hover {
+    transform: scale(1.1);
+
+}
+
 
 /* ==========================================================================
-   14. MOBILE DOWNLOAD SECTION
+   15. MOBILE DOWNLOAD SECTION
 ========================================================================== */
 .mobile-download h3{
     margin-top: 135px;
@@ -1765,7 +1864,7 @@ p {
 
 
 /* ==========================================================================
-   15. FOOTER
+   16. FOOTER
 ========================================================================== */
 .footer, .footer a{
     color: #ced3d8;
@@ -1821,7 +1920,7 @@ p {
 }
 
 .contact-content a {
-    color: #c0392b;
+    color: #99292D;
     font-weight: 600;
 }
 
@@ -1878,7 +1977,7 @@ p {
 
 
 /* ==========================================================================
-   16. COUNTDOWN
+   17. COUNTDOWN
 ========================================================================== */
 .countdown {
     margin:0 auto;
@@ -1924,7 +2023,7 @@ p {
 }
 
 /* ==========================================================================
-   17. TIMELINE
+   18. TIMELINE
 ========================================================================== */
 
 .timeline {
@@ -2055,7 +2154,7 @@ p {
 }
 
 .timeline-badge.warning {
-    background-color: #C0392B !important;
+    background-color: #99292D !important;
 }
 
 .timeline-badge.danger {
