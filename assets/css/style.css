@@ -646,12 +646,14 @@ p {
 .navbar-nav>li>a:hover, .navbar-nav>li>a:focus, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus {
     color: #ffffff;
     background-color: #c0392b;
+    border-color: #ffffff;
+    border-style: solid;
     -moz-border-radius-topleft: 10px;
     -moz-border-radius-topright: 10px;
-    -moz-border-radius-bottomright: 0px;
-    -moz-border-radius-bottomleft: 0px;
-    -webkit-border-radius: 10px 10px 0px 0px;
-    border-radius: 10px 10px 0px 0px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .navbar-brand .text-logo:hover,
