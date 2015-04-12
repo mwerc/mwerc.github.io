@@ -601,8 +601,9 @@ p {
 }
 
 .navbar-fixed-top {
+    background: #323a45;
     padding-top: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 5px;
 }
 
 .navbar-fixed-top.is-scrolling{
@@ -646,16 +647,16 @@ p {
 }
 
 .navbar-nav>li>a:hover, .navbar-nav>li>a:focus, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus {
-    color: #ffffff;
-    background-color: #99292D;
-    border-color: #ffffff;
+    color: #99292D;
+    background-color: transparent;
+    /*--border-color: #ffffff;
     border-style: solid;
     -moz-border-radius-topleft: 8px;
     -moz-border-radius-topright: 8px;
     -moz-border-radius-bottomright: 8px;
     -moz-border-radius-bottomleft: 8px;
     -webkit-border-radius: 8px 8px 8px 8px;
-    border-radius: 8px 8px 8px 8px;
+    border-radius: 8px 8px 8px 8px;--*/
 }
 
 .navbar-brand .text-logo:hover,
