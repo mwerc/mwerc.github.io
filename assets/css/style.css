@@ -91,7 +91,7 @@ a {
 }
 
 a:hover, a:focus {
-	color: #3e3e3e;
+	color: #323a45;
 	text-decoration: none;
 }
 
@@ -648,7 +648,7 @@ p {
 .navbar-nav>li>a:hover, .navbar-nav>li>a:focus, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus {
     color: #ffffff;
     background-color: #99292D;
-    border-color: #3e3e3e;
+    border-color: #ffffff;
     border-style: solid;
     -moz-border-radius-topleft: 8px;
     -moz-border-radius-topright: 8px;
