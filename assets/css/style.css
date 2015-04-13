@@ -48,7 +48,7 @@ body {
     font-weight: 400;
     padding: 0;
     overflow-x: hidden;
-    background-color: #ffffff;
+    background-color: whitesmoke;
 }
 
 section{
@@ -146,7 +146,7 @@ ul {
 }
 
 .medium-bg {
-    background-color: whitesmoke;
+    background-color: #292929;
 }
 
 
@@ -601,14 +601,13 @@ p {
 }
 
 .navbar-fixed-top {
-    background: #323a45;
+    background: #292929;
     padding-top: 25px;
     padding-bottom: 5px;
 }
 
 .navbar-fixed-top.is-scrolling{
-    background: #323a45;
-    background: rgba(50,58,69,0.95);
+    background: #292929;
     border: 0;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -648,13 +647,13 @@ p {
 
 .navbar-nav>li>a:hover, .navbar-nav>li>a:focus, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus {
     color: #99292D;
-    background-color: #ffffff;
-    -moz-border-radius-topleft: 8px;
+    background-color: transparent;
+    /*-moz-border-radius-topleft: 8px;
     -moz-border-radius-topright: 8px;
     -moz-border-radius-bottomright: 0px;
     -moz-border-radius-bottomleft: 0px;
     -webkit-border-radius: 8px 8px 0px 0px;
-    border-radius: 8px 8px 0px 0px;
+    border-radius: 8px 8px 0px 0px;*/
 }
 
 .navbar-brand .text-logo:hover,
