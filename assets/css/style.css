@@ -602,8 +602,8 @@ p {
 
 .navbar-fixed-top {
     background: #292929;
-    padding-top: 25px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 0px;
 }
 
 .navbar-fixed-top.is-scrolling{
