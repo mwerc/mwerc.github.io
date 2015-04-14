@@ -48,7 +48,26 @@ body {
     font-weight: 400;
     padding: 0;
     overflow-x: hidden;
-    background-color: whitesmoke;
+    background-color: snow;
+}
+
+body:before, body:after {
+    content: "";
+    position: fixed;
+    background:#292929;
+    left: 0;
+    right: 0;
+    height: 10px;
+}
+body:before {
+    top: 0;
+}
+body:after {
+    bottom: 0;
+}
+body {
+    border-left: 60px solid #292929;
+    border-right: 60px solid #292929;
 }
 
 section{
@@ -568,7 +587,7 @@ p {
 /*   Header Background Parallax Settings
 /*------------------------------------------*/
 .header{
-    background: url("../images/davinci1.jpg") no-repeat center top fixed;
+    background: url("../images/misc/edisonworkbench.jpg") no-repeat center top fixed;
     -webkit-background-size: cover;
     -moz-background-size:cover;
     background-size: cover;
