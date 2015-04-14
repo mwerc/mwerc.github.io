@@ -48,7 +48,7 @@ body {
     font-weight: 400;
     padding: 0;
     overflow-x: hidden;
-    background-color: snow;
+    background-color: whitesmoke;
 }
 
 body:before, body:after {
