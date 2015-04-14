@@ -66,8 +66,8 @@ body:after {
     bottom: 0;
 }
 body {
-    border-left: 80px solid #3e3e3e;
-    border-right: 80px solid #3e3e3e;
+    border-left: 40px solid #323a45;
+    border-right: 40px solid #323a45;
 }
 
 section{
@@ -620,13 +620,13 @@ p {
 }
 
 .navbar-fixed-top {
-    background: #3e3e3e;
+    background: #323a45;
     padding-top: 10px;
     padding-bottom: 0px;
 }
 
 .navbar-fixed-top.is-scrolling{
-    background: #3e3e3e;
+    background: #323a45;
     border: 0;
     padding-top: 5px;
     padding-bottom: 5px;
