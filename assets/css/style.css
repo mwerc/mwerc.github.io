@@ -1767,7 +1767,7 @@ p {
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     -moz-transition: all .3s;
-    transition: all .3s;
+    transition: all .3s ease 0s;
 }
 
 .corporates-img .img-icons {
@@ -1795,8 +1795,7 @@ p {
     padding: 5%;
 }
 
-.corporates-img:hover {
-    transform: scale(1.1);
+
 
 }
 
