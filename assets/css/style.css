@@ -75,6 +75,10 @@ section{
     overflow:hidden;
 }
 
+.marginRow{
+    margin-bottom:0px !important;
+}
+
 /*------------------------------------------------------------------*/
 /*	 Internet Explorer 10 in Windows 8 and Windows Phone 8 Bug fix
 /*-----------------------------------------------------------------*/
