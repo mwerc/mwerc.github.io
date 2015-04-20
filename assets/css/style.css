@@ -65,9 +65,9 @@ body:before {
 body:after {
     bottom: 0;
 }
-body {
+//*body {
     border-left: 40px solid #323a45;
-    border-right: 40px solid #323a45;
+    border-right: 40px solid #323a45;*//
 }
 
 section{
