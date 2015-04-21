@@ -595,7 +595,7 @@ p {
 /*   Header Background Parallax Settings
 /*------------------------------------------*/
 .header{
-    background: url("../images/misc/edisonworkbench.jpg") no-repeat center top fixed;
+    background: url("../images/misc/ignition.jpg") no-repeat center top fixed;
     -webkit-background-size: cover;
     -moz-background-size:cover;
     background-size: cover;
@@ -675,12 +675,12 @@ p {
 .navbar-nav>li>a:hover, .navbar-nav>li>a:focus, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus {
     color: #99292D;
     background-color: transparent;
-    /*-moz-border-radius-topleft: 8px;
+    //*moz-border-radius-topleft: 8px;
     -moz-border-radius-topright: 8px;
     -moz-border-radius-bottomright: 0px;
     -moz-border-radius-bottomleft: 0px;
     -webkit-border-radius: 8px 8px 0px 0px;
-    border-radius: 8px 8px 0px 0px;*/
+    border-radius: 8px 8px 0px 0px;*//
 }
 
 .navbar-brand .text-logo:hover,
@@ -733,7 +733,9 @@ p {
 }
 
 .hero-section p{
+    color: #ffffff;
     font-size: 21px;
+    font-weight: bold;
     line-height: 27px;
     letter-spacing: -1px;
     margin-bottom: 35px;
@@ -741,6 +743,7 @@ p {
 
 .hero-section .btn-box{
     padding: 0;
+    margin-bottom: 20px;
 }
 
 .hero-section .btn{
@@ -749,10 +752,10 @@ p {
 
 .hero-section h2 {
     color: #ffffff;
-    font-size: 80px;
+    font-size: 50px;
     font-weight: bold;
     text-align: left;
-    padding-bottom: 70px;
+    padding-bottom: 20px;
 }
 
 /*------------------------------------------*/
