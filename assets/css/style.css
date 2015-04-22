@@ -173,7 +173,7 @@ ul {
 }
 
 .medium-bg {
-    background-color: #061226;
+    background-color: #040D20;
 }
 
 
@@ -634,7 +634,7 @@ p {
 }
 
 .navbar-fixed-top.is-scrolling{
-    background:#061226;
+    background:#040D20;
     border: 0;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -721,7 +721,7 @@ p {
 
 .navbar-nav>li>a.btn-nav:hover, .navbar-nav>li>a.btn-nav:focus {
     background: #ffffff;
-    color: #3e3e3e;
+    color: #040D20;
     border-color: #ffffff;
 }
 
