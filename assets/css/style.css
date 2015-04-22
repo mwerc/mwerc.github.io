@@ -414,7 +414,7 @@ blockquote img {
     font-weight: bolder;
     letter-spacing: 2px;
     text-transform: none;
-    font-size: 24px;
+    font-size: 30px;
     line-height: 21px;
     color: #ffffff;
 }
@@ -1826,8 +1826,8 @@ p {
 }
 
 .mobile-download .btn-color:hover {
-    background-color: #3e3e3e;
-    border-color: #3e3e3e;
+    background-color: #031423;
+    border-color: #031423;
     color: #ffffff;
 }
 
