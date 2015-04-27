@@ -54,7 +54,7 @@ body {
 body:before, body:after {
     content: "";
     position: fixed;
-    background:#3e3e3e;
+    background:#031423;
     left: 0;
     right: 0;
     height: 10px;
@@ -603,6 +603,8 @@ p {
 
 .header .overlay {
     height: 650px;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 .header2{
@@ -721,7 +723,7 @@ p {
 
 .navbar-nav>li>a.btn-nav:hover, .navbar-nav>li>a.btn-nav:focus {
     background: #ffffff;
-    color: #3e3e3e;
+    color: #031423;
     border-color: #ffffff;
 }
 
@@ -1817,7 +1819,7 @@ p {
 .mobile-text {
     font-size: 18px;
     line-height: 25px;
-    margin-bottom: 2h0px;
+    margin-bottom: 20px;
     font-weight: 400;
 }
 
