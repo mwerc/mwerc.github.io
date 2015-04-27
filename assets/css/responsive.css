@@ -6,32 +6,7 @@
 /* ------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------ */
-/* ----------- iPhone 5 and 5S ----------- */
 
-/* Portrait and Landscape */
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 568px)
-and (-webkit-min-device-pixel-ratio: 2) { body
-
-}
-
-/* Portrait */
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 568px)
-and (-webkit-min-device-pixel-ratio: 2)
-and (orientation: portrait) { body
-}
-
-/* Landscape */
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 568px)
-and (-webkit-min-device-pixel-ratio: 2)
-and (orientation: landscape) { body
-
-}
 @media (max-width: 1199px) {
 
     /*------------------------------------------*/
@@ -122,14 +97,18 @@ and (orientation: landscape) { body
 /* ------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------ */
-@media (max-width: 991px) {
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
 
     /*-----------------------------------------------------------*/
     /*    Show Navbar Toggle and Hide Navbar Menu, Bootstrap Fixes
     /*-----------------------------------------------------------*/
     .navbar-fixed-top {
-        background: #323a45;
-        background: rgba(50,58,69,0.95);
+        background: #031423;
+        background: #031423(50,58,69,0.95);
         padding-top: 0;
         padding-bottom: 0;
     }
