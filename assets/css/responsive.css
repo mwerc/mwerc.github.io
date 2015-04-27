@@ -104,7 +104,6 @@
     /*-----------------------------------------------------------*/
     .navbar-fixed-top {
         background: #031423;
-        background: #031423(50,58,69,0.95);
         padding-top: 0;
         padding-bottom: 0;
     }
@@ -127,7 +126,7 @@
     }
 
     .navbar-collapse.collapse.in {  
-        display: fixed!important;
+        display: block!important;
     }
 
     .navbar-nav {
